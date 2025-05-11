@@ -65,8 +65,6 @@ void printBackward(struct Node* head) {
 
 
 int main() {
-    // struct Node* head=NULL;
-    // printf("Size of node is %zu\n", sizeof(struct Node)); //A bode is 24 bytes
     struct Node* head = NULL;
     insertEnd(&head, 10);
     insertEnd(&head, 25);
